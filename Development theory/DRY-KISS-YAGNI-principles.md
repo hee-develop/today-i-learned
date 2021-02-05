@@ -8,7 +8,7 @@ Date: 2021-02-03
 소프트웨어를 개발하는 데 있어 더 나은 코드를 작성하기 위한 개발 원칙
 
 ### DRY - Don't Repeat Yourself
-같은 일을 두 번 <span class="accent">반복하지 않도록 할 것</span>을 의미함
+같은 일을 두 번 <span style="color: red;">반복하지 않도록 할 것</span>을 의미함
 겹치는 부분이 있으면 하나의 공통 컴포넌트를 만들어 사용하게끔 만듦
 비슷하지만 다른 기능을 만들 때 복붙해서 수정하지 말고 공통점을 찾아 함수 등으로 빼 두는 것이 좋음
 - 비슷한 기능은 묶어서 구현하는 것이 읽기 쉬운 코드를 만듦
@@ -16,13 +16,13 @@ Date: 2021-02-03
 
 ### KISS - Keep It Small and Simple
 해외 투고를 보면 *Keep it simple, stupid* 라는 문구가 대부분이었지만 어감이 별로 좋지 않아 다른 약어로 작성
-<span class="accent">설계를 간단하고 단순하게</span>하는 것을 의미함
-복잡한 기능도 자세히 살펴 보면 단순한 기능 여러 개로 분리할 수 있음
+<span style="color: red;">설계를 간단하고 단순하게</span>하는 것을 의미함
+복잡한 기능도 자세히 살펴보면 단순한 기능 여러 개로 분리할 수 있음
 - 복잡한 기능은 여러 개의 단순한 기능으로 쪼개어 구현하는 것이 읽기 쉬운 코드를 만듦
 
 
 ### YAGNI - You Ain't Gonna Need it
-지금은 필요하지 않지만, 향후에 필요하다고 생각되는 것을 <span class="accent">미리 추가하지 말 것</span>을 의미함
+지금은 필요하지 않지만, 향후에 필요하다고 생각되는 것을 <span style="color: red;">미리 추가하지 말 것</span>을 의미함
 미리 추가하면, 다음과 같은 비용이 소모됨
 - 개발자는 개발 목표를 벗어난 부분까지 구현을 하기 때문에 개발에 추가적인 시간이 소요됨
 - 기능 출시 전 테스트나, 코드 분석을 할 때 등, 지금 동작하지 않는 기능도 확인해야 하므로 불필요한 시간이 소모됨
@@ -36,17 +36,12 @@ Date: 2021-02-03
 ### 소감
 
 단순하면서도 읽기 쉬운 코드란 무엇일까? 에 대한 대답을 하기 위한 여정의 일부 같았다.
-여태까지 내가 어떻게 코드를 작성해왔는지 되돌아 볼 수 있는 시간이었다.
+여태까지 내가 어떻게 코드를 작성해왔는지 되돌아볼 수 있는 시간이었다.
 '원칙'이라는 개념으로 의식하면서 쓰지는 않았으나 그동안 나름 잘 지켜 왔던 것 같기도..
 
+추가)
+영문으로 된 글에는 원칙(rule) 아닌 원리(principle)로 설명을 하는 곳이 많았지만, 개인적으로 사전적 의미의 '원리'와는 거리가 멀다고 생각해 원칙으로 작성함.
 
 ### 참고 링크
 - [소프트웨어 개발의 3개의 KEY 원칙 : KISS,YAGNI,DRY](https://hongjinhyeon.tistory.com/136)
 - [3 Key Software Principles You Must Understand](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161)
-
-<style>
-.accent {
-  color: red;
-  font-weight: bold;
-}
-</style>

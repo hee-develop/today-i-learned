@@ -22,7 +22,9 @@ from [Pro git](https://git-scm.com/book/en/v2) 3.1~
 - 커밋을 깔끔하게(다수의 지저분한 커밋을 하나로 뭉친다는 의미가 아님) 만들 때 유용
 - merge와 달리 **부모 브랜치의 값과 관계 없이, 브랜치의 변경값만 적용할 수 있음**
 - 예시에서는 `git rebase --onto <A> <B> <C>`. `A`를 기준으로 `B`와 `C`의 공통부모까지의 커밋을 제외할 수 있다
+
 ![rebase sub-branch](https://git-scm.com/book/en/v2/images/interesting-rebase-2.png)
+
 `client`기준으로 `C2`부터의 변경분은 반영되지 않으므로 `C8`, `C9`만 반영됨
 - man페이지를 확인해보니 적용 범위를 지정하는 것도 가능한 모양
 ```
