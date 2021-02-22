@@ -62,7 +62,7 @@ interface NUmberOrStringDictionary {
 ```
 
 ### 클래스 타입 인터페이스
-자바의 그것과 완벽히 일치
+자바의 그것
 
 ```ts
 interface ClockInterface {
@@ -133,7 +133,7 @@ const Clock: ClockConstructor = class Clock implements ClockInterface {
 조금 이해하기 어려운 개념이라 실제로 쓰게 될 일이 생길 때 다시 공부하는 게 나을 것 같다.
 
 ### 인터페이스 확장(extend)
-자바와 같다. 인터페이스를 다중 상속이 가능함
+자바와 같다. 인터페이스의 다중 상속이 가능함
 
 ### 클래스를 확장한 인터페이스
 인터페이스가 클래스를 상속받을 수 있음. 이 경우 멤버는 상속받으나 구현은 상속받지 않음
