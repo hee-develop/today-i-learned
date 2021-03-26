@@ -1,11 +1,10 @@
 Date: 2021-02-06
 ---
 
-## Javascript 기초1
-from [JavaScript 재입문하기](https://developer.mozilla.org/ko/docs/A_re-introduction_to_JavaScript)
-기초부터 탄탄하게 다시 다지기
+## Javascript
+[JavaScript 재입문하기](https://developer.mozilla.org/ko/docs/A_re-introduction_to_JavaScript) 등으로부터 공부한 내용 중 되새겨둘 필요가 있는 내용을 정리
 
-### Number는 부동소수점형밖에 존재하지 않는다
+### `Number`타입은 부동소수점형
 - [ECMA표준에 따르면]((https://262.ecma-international.org/6.0/#sec-terms-and-definitions-number-value)), `Number`는 실제로 `double`형(IEEE 754)이다
 - 따라서 javascript에는 정수가 없다
 
