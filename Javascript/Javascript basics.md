@@ -70,3 +70,11 @@ console.timeEnd('float');
 
 `Object.assign`이나 `Array.concat`같은 역할을 하며 간략하게 작성이 가능한 문법적 설탕
 배열, 객체를 복사(shallow-copy)할 때 유용하게 사용할 수 있음.
+
+### 계산된 속성 이름
+ES6부터 객체 리터럴에서 키를 대괄호(`[]`)로 감쌀 때, 대괄호 내에서 계산된 값을 키로 사용할 수 있다.
+
+```js
+const obj = { ['a'+'b']: 1 };
+obj.ab; // 1
+```
