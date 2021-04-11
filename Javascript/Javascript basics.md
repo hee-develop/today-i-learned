@@ -78,3 +78,38 @@ ES6부터 객체 리터럴에서 키를 대괄호(`[]`)로 감쌀 때, 대괄호
 const obj = { ['a'+'b']: 1 };
 obj.ab; // 1
 ```
+
+### Symbol
+ES6에서 새로 추가된 변경 불가능한 원시 타입의 값.
+모든 심볼의 값은 고유하며, 이는 같은 키로 만든 심볼도 그렇다.
+```js
+const sym1 = Symbol('key');
+const sym2 = Symbol('key');
+sym1 === sym2; // false
+```
+
+루비의 심볼과 같은 느낌인 듯
+
+### 단축 평가
+논리곱과 논리합(`&&`, `||`) 연산은 `true` `false`를 반환하는 것이 아니고, 마지막으로 평가된 값을 반환한다.
+
+```js
+'apple' && 'banana' // 'banana'
+```
+`'apple'`을 먼저 평가(`true`)한 뒤 `'banana'`를 평가(`true`)한다. 마지막으로 평가된 값이 `'banana'`이므로, 이를 반환한다.
+
+```js
+'apple' || 'banana' // 'apple'
+```
+`'apple'`을 먼저 평가(`true`)한다. 논리합 연산은 좌항이 `true`라면 우항은 평가하지 않는다.
+마지막으로 평가된 값이 `'apple'`이므로, 이를 반환한다.
+
+값이 있을 때만 무언가를 하고자 할 때, `if`문을 쓰지 않고 짧게 쓰는 것이 가능하다.
+```js
+if (a) a.something(); // a && a.something();
+// ES2020의 optional chaining을 사용하면 a?.something(); 처럼 더 줄여쓸 수도 있다.
+
+if (b) b = c; // b && b = c;
+```
+
+혹은 React는 조건문 등의 처리는 작성할 수 없기 때문에 단축 평가로 조건문을 대신해 사용할 수 있다.
