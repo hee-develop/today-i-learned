@@ -1,7 +1,6 @@
-Date: 2021-06-20
----
+# DocumentFragment
 
-## DocumentFragment
+`Written: 2021-06-20`
 
 개발에서 흔히 사용되는 Fragment와 같은 역할.
 

@@ -1,7 +1,6 @@
-Date: 2021-06-22
----
+# Microfrontend
 
-## Microfrontend
+`Written: 2021-06-22`
 
 백엔드에서의 마이크로서비스를 프론트엔드에 적용시킨 개념.
 

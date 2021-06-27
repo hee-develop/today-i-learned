@@ -1,6 +1,3 @@
-# Today I Learned
-뒤쳐지지 않게 조금씩 공부하기
+# TIL
 
-## [Git](/Git)
-
-## [Development theory](/Development%20theory)
+Vuepress를 이용한 정적 사이트 제작
