@@ -1,7 +1,6 @@
-Date: 2021-04-12
----
-
 # Git reset --hard를 쓸 땐 조심하자
+
+`Written: 2021-04-12`
 
 커밋을 잘못해서, 아무 생각 없이 GUI로 이전 커밋으로 `git reset --hard`해 버렸다.
 
