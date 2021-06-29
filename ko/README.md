@@ -25,6 +25,7 @@
 ### 서버
 - [마이크로서비스](./server/microservice.html)
 - [도커](./server/docker.html)
+- [Reverse Proxy와 Forward Proxy의 차이](./server/reverse-proxy-forward-proxy.html)
 
 ### DB
 - [DB에서 인덱스란](./database/database-index.html)
