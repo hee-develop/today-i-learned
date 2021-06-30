@@ -16,6 +16,7 @@
 ### 프론트엔드
 - [DocumentFragment](./frontend/document-fragment.html)
 - [마이크로 프론트엔드](./frontend/micro-frontend.html)
+- [프론트엔드 서버](./frontend/frontend-server.html)
 
 ### Javascript
 - [Javascript 다시 공부하기](./javascript/study-javascript.html)
