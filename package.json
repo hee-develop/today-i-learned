@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build . -d ./build"
   },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.20"
