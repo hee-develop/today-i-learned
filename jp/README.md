@@ -1,3 +1,9 @@
+---
+sidebar: false
+contributors: false
+lastUpdated: false
+---
+
 # Today, hee-develop learned..
 
 少しずつ勉強する

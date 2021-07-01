@@ -1,3 +1,10 @@
-# TIL
+---
+sidebar: false
+contributors: false
+lastUpdated: false
+---
 
-Vuepress를 이용한 정적 사이트 제작
+# Today, hee-develop learned..
+
+## [한국어](./ko/)
+## [日本語](./jp/)
