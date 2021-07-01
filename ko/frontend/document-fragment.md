@@ -14,5 +14,5 @@
 - `Element`는 `innerHTML`등을 사용할 수 있지만, fragment는 그렇지 못하다
 
 ### template 태그
-- `<template>`태그는 Javascript에 의해 인스턴스를 생서할 수 있는 HTML코드를 담음.
+- `<template>`태그는 Javascript에 의해 인스턴스를 생성할 수 있는 HTML코드를 담음.
 - `HTMLTemplateElement`는 `DocumentFragment`를 가짐
