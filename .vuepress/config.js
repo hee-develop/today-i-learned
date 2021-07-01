@@ -2,6 +2,8 @@ module.exports = {
   title: 'TIL',
   description: 'Today I learned by hee-develop',
 
+  base: '/TIL/',
+
   locales: {
     '/ko/': { lang: 'ko-KR' },
     '/jp/': { lang: 'ja-JP' },
