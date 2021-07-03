@@ -44,3 +44,4 @@ lastUpdated: false
 
 ### 기타
 - [일본 IT업계에서 사용하는 단어 모음](./etc/engineering-words-in-japan.html)
+- [.gitignore 대상 폴더를 gh-pages를 이용해 배포하기](./etc/use-gh-pages.html)
