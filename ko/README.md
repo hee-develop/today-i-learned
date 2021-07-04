@@ -29,6 +29,9 @@ lastUpdated: false
 - [전역 Error 캐치하기](./javascript/catch-global-error.html)
 - [불변 객체](./javascript/immutable-object.html)
 
+### Typescript
+- [객체의 키를 타입으로 선언하기 : keyof typeof](./typescript/keyof-typeof.html)
+
 ### 서버
 - [마이크로서비스](./server/microservice.html)
 - [도커](./server/docker.html)
