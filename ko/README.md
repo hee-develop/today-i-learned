@@ -24,6 +24,7 @@ lastUpdated: false
 - [마이크로 프론트엔드](./frontend/micro-frontend.html)
 - [프론트엔드 서버](./frontend/frontend-server.html)
 - [PWA](./frontend/pwa.html)
+- [React에서 Function Component가 Sideeffect를 갖고 있는 이유](./frontend/react-function-component-sideeffect.html)
 
 ### Javascript
 - [Javascript 다시 공부하기](./javascript/study-javascript.html)
