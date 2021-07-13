@@ -26,6 +26,7 @@ lastUpdated: false
 - [PWA](./frontend/pwa.html)
 - [React에서 Function Component가 Sideeffect를 갖고 있는 이유](./frontend/react-function-component-sideeffect.html)
 - [fetch API](./frontend/fetch-api.html)
+- [GraphQL](./frontend/graphql.html)
 
 ### Javascript
 - [Javascript 다시 공부하기](./javascript/study-javascript.html)
