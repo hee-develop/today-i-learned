@@ -18,6 +18,7 @@ lastUpdated: false
 - [덕 타이핑(Duck typing)](./development-theory/duck-typing.html)
 - [함수형 프로그래밍](./development-theory/functional-programming.html)
 - [동적 프로그래밍(DP)](./development-theory/dynamic-programming.html)
+- [추상화(abstraction)](./development-theory/abstraction.html)
 
 ### 프론트엔드
 - [DocumentFragment](./frontend/document-fragment.html)
